@@ -24,11 +24,25 @@ Pia ina uwezo wa **Auto Update** kutoka GitHub kila inapoanza kutumika, ili iwe 
 
 ```bash
 pkg update -y
+```
+
+```bash
 pkg install git python -y
+```
+
+```bash
 pip install requests phonenumbers pyfiglet
+```
+
+```bash
 git clone https://github.com/Benright255/ip-tracker
+```
+
+```bash
 cd ip-tracker
 bash install.sh
+```
+
 
 ---
 ## ⚙️ **Usage**
