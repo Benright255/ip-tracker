@@ -26,19 +26,11 @@ Pia ina uwezo wa **Auto Update** kutoka GitHub kila inapoanza kutumika, ili iwe 
 pkg update -y
 pkg install git python -y
 pip install requests phonenumbers pyfiglet
-
-
----
-
-🚀 Clone Tool
-
 git clone https://github.com/Benright255/ip-tracker
 cd ip-tracker
 bash install.sh
 
-
 ---
-
 ## ⚙️ **Usage**
 
 For IP Tracking:
@@ -99,7 +91,10 @@ GitHub: Benright255
 
 WhatsApp: 📲 +255711384026
 
+## 𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑩𝒀 𝑭𝑶𝑳𝑳𝑶𝑾𝑰𝑵𝑮 𝐎𝐔𝐑 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑪𝑯𝑨𝑵𝑵𝑬𝑳
 
+
+ <a href="https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"><img title="OUR-WHATSAPP CHANNEL" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
 
 ---
 
