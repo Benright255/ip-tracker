@@ -1,106 +1,118 @@
-# 🌍 IP & Location Tracker 🔎
+# 🔍 BENRIGHT IP & PHONE TRACKER
 
-**Simple Termux tool ya kukusanya taarifa za IP na mahali ilipo.**  
-Inatumia API ya **ip-api.com** kupata details za IP kama nchi, mkoa, mji, ISP, latitude na longitude.
+**All-in-One Information Gathering Tool!**
+
+`Benright IP & Phone Tracker` ni tool ya kisasa ya kufanya **IP Location Tracking** na **Phone Number Info Lookup** kwa haraka.  
+Pia ina uwezo wa **Auto Update** kutoka GitHub kila inapoanza kutumika, ili iwe updated muda wote.
 
 ---
 
-## ⚙️ Installation
+## ✨ **Features**
 
-Fanya haya kwenye Termux yako:
+✅ Track IP Address  
+✅ Track Phone Number (Country, Carrier, Type)  
+✅ Google Maps Location Link kwa IP  
+✅ Auto Update System (No need to reclone)  
+✅ Beautiful Banner using `pyfiglet`  
+✅ Works smoothly on **Termux & Linux**
+
+---
+
+## 🖥️ **Installation**
+
+### Termux:
 
 ```bash
-pkg update && pkg upgrade
-pkg install python git
-pip install requests
+pkg update -y
+pkg install git python -y
+pip install requests phonenumbers pyfiglet
 
 
 ---
 
-🔧 Clone & Run
+🚀 Clone Tool
 
-Clone tool hii kutoka GitHub:
-
-git clone https://github.com/Benright255/ip-tracker.git
+git clone https://github.com/Benright255/ip-tracker
 cd ip-tracker
+bash install.sh
 
-Run tool kwa kuandika:
+
+---
+
+⚙️ Usage
+
+For IP Tracking:
 
 python tracker.py <ip_address>
 
-
----
-
-🧰 Example
-
-Mfano wa kuitumia:
+Example:
 
 python tracker.py 8.8.8.8
 
-Sample output:
 
-[+] IP Information Found:
-IP: 8.8.8.8
-Country: United States
-Region: California
-City: Mountain View
-ISP: Google LLC
-Lat: 37.4056
-Lon: -122.0775
+---
+
+For Phone Number Tracking:
+
+python tracker.py <phone_number>
+
+Example:
+
+python tracker.py +255714XXXXXX
 
 
 ---
 
-📄 Features
+🗺️ What You Get
 
-🔎 IP Address Lookup
+IP Location
 
-🌍 Country, Region, City Info
+ISP Info
 
-🛰️ Latitude & Longitude
+Organization & AS Number
 
-🏢 ISP Name (Mtoa huduma wa intaneti)
+Reverse DNS
 
+Google Maps link
 
+Phone Number Country
 
----
+Carrier (Vodacom, Airtel etc.)
 
-🔗 API Used
-
-Tool hii inatumia API hii hapa:
-
-http://ip-api.com/ (Free IP Lookup API)
-
-
----
-
-⚠️ Note
-
-Usitumie kwa mambo ya uhalifu. Tool hii ni kwa malengo ya mafunzo tu (Educational Purpose Only).
+Type: Mobile / Landline
 
 
 
 ---
 
-💻 Author
+📸 Screenshot
 
-Benright255
 
-GitHub: https://github.com/Benright255
+(Bandika screenshot yako hapa ukitaka)
+
 
 ---
 
-### **MAELEKEZO:**
+👨‍💻 Author
 
-1️⃣ Copy hiyo README.md yote  
-2️⃣ Fungua Termux ndani ya folder yako ya `ip-tracker`  
-3️⃣ Andika:
+GitHub: Benright255
 
-```bash
-nano README.md
+WhatsApp: 📲 +255711384026
 
-4️⃣ Bandika ile README.md yote
-5️⃣ Hifadhi kwa CTRL + X, kisha Y, kisha Enter
 
+
+---
+
+📝 License
+
+MIT License - Feel free to use & share this tool responsibly.
+
+
+---
+
+⚠️ Disclaimer
+
+Benright Tracker is made for Educational & Research purposes only.
+The developer is NOT responsible for any misuse.
 
 ---
