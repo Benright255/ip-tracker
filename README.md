@@ -39,7 +39,7 @@ bash install.sh
 
 ---
 
-⚙️ Usage
+## ⚙️ **Usage**
 
 For IP Tracking:
 
