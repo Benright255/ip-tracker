@@ -3,6 +3,7 @@ import sys
 import pyfiglet
 import phonenumbers
 from phonenumbers import geocoder, carrier, number_type
+import os
 
 def banner():
     ascii_banner = pyfiglet.figlet_format("TRACKER")
@@ -11,6 +12,11 @@ def banner():
     print(" Author   : Benright255")
     print(" GitHub   : https://github.com/Benright255/ip-tracker")
     print("===================================\n")
+
+def auto_update():
+    print("\n[+] Checking for updates from GitHub...")
+    os.system("git pull")
+    print("[+] Update check complete!\n")
 
 def ip_tracker(ip):
     url = f"http://ip-api.com/json/{ip}?fields=status,message,query,reverse,country,regionName,city,zip,lat,lon,isp,org,as,timezone"
@@ -38,16 +44,17 @@ def phone_tracker(phone):
     try:
         parsed_number = phonenumbers.parse(phone, None)
         print("[+] Phone Number Information:\n")
-        print(f"Number    : {phone}")
-        print(f"Country   : {geocoder.description_for_number(parsed_number, 'en')}")
-        print(f"Carrier   : {carrier.name_for_number(parsed_number, 'en')}")
-        print(f"Type      : {number_type(parsed_number)}")
-        print(f"Region Code: {parsed_number.country_code}")
+        print(f"Number      : {phone}")
+        print(f"Country     : {geocoder.description_for_number(parsed_number, 'en')}")
+        print(f"Carrier     : {carrier.name_for_number(parsed_number, 'en')}")
+        print(f"Number Type : {number_type(parsed_number)}")
+        print(f"Region Code : {parsed_number.country_code}")
     except:
         print("[-] Invalid phone number format. Use international format e.g +255XXXXXXXXX")
 
 if __name__ == "__main__":
     banner()
+    auto_update()
     if len(sys.argv) != 2:
         print("Usage: python tracker.py <ip_address | phone_number>")
     else:
