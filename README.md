@@ -1,8 +1,8 @@
-# 🔍 BENRIGHT IP & PHONE TRACKER
+# 🔍 𝐁𝐄𝐍𝐑𝐈𝐆𝐇𝐓 𝐈𝐏 & 𝐏𝐇𝐎𝐍𝐄 𝐓𝐑𝐀𝐂𝐊𝐄𝐑
 
 **All-in-One Information Gathering Tool!**
 
-`Benright IP & Phone Tracker` ni tool ya kisasa ya kufanya **IP Location Tracking** na **Phone Number Info Lookup** kwa haraka.  
+`𝐁𝐞𝐧𝐫𝐢𝐠𝐡𝐭 𝐈𝐏 & 𝐏𝐡𝐨𝐧𝐞 𝐓𝐫𝐚𝐜𝐤𝐞𝐫` ni tool ya kisasa ya kufanya **IP Location Tracking** na **Phone Number Info Lookup** kwa haraka.  
 Pia ina uwezo wa **Auto Update** kutoka GitHub kila inapoanza kutumika, ili iwe updated muda wote.
 
 ---
