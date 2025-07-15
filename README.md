@@ -74,36 +74,22 @@ python tracker.py +255714XXXXXX
 ## 🗺️ **What You Get**
 
 ✅ IP Location
-
 ✅ ISP Info
-
 ✅ Organization & AS Number
-
 ✅ Reverse DNS
-
 ✅ Google Maps link
-
 ✅ Phone Number Country
-
 ✅ Carrier (Vodacom, Airtel etc.)
-
 ✅ Type: Mobile / Landline
-
-
-
----
-
-📸 Screenshot
-
-
-(Bandika screenshot yako hapa ukitaka)
 
 
 ---
 
 ## 👨‍💻 **Developer**
 
-**GitHub**: Benright255
+**GitHub:**
+
+<a href= "https://github.com/Benright255/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK MY GITHUB-h?color=brown&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 **Contact me:**
 
